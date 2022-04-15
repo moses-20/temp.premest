@@ -1,6 +1,6 @@
 import cors from "../../../server/cors";
 import connectDB from "../../../server/db";
-import User from "../../../models/user.model";
+import User from "../../../server/models/user.model";
 
 export default async function handler(req, res) {
   await connectDB();
